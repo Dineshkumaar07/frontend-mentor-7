@@ -79,7 +79,7 @@ export default function Home() {
               />
             </div>
             <button
-              className="bg-[#242742] text-white px-9 py-3 rounded-md"
+              className="bg-[#242742] text-white px-9 py-3 rounded-md hover:bg-gradient-to-r hover:from-red-500  hover:to-orange-400 duration-200"
               disabled={!ok}
               onClick={() => {
                 console.log(email);
@@ -107,7 +107,7 @@ export default function Home() {
             </p>
           </div>
           <button
-            className="bg-[#242742] text-white px-9 py-3 rounded-md mt-6"
+            className="bg-[#242742] text-white px-9 py-3 rounded-md mt-6 hover:bg-gradient-to-r hover:from-red-500  hover:to-orange-400 duration-200"
             onClick={() => {
               setPage(1);
               setEmail("");
