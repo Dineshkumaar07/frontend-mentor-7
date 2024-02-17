@@ -34,7 +34,7 @@ export default function Home() {
   }
 
   return (
-    <div className="sm:flex h-screen w-full sm:justify-center sm:items-center text-[#242742] sm:bg-[#242742]">
+    <div className="sm:flex h-screen w-full md:justify-center md:items-center text-[#242742] md:bg-[#242742]">
       <title>Newsletter-Subscription</title>
       {page === 1 && (
         <div className="flex flex-col-reverse sm:gap-9 sm:flex-row bg-white rounded-3xl sm:p-6  items-center ">
@@ -97,7 +97,7 @@ export default function Home() {
         </div>
       )}
       {page === 2 && (
-        <div className="sm:w-1/4 flex flex-col gap-5bg-white sm:px-14 px-9 bg-white sm:py-9 rounded-3xl justify-around">
+        <div className="sm:w-1/4 flex flex-col sm:gap-5  sm:px-14 px-9 bg-white sm:py-9 rounded-3xl justify-center sm:h-auto h-screen gap-80">
           <div className="flex flex-col gap-5 ">
             <Image src={bigTick} alt="tick" height="50" />
             <h1 className="font-bold text-4xl">Thanks for subscribing!</h1>
